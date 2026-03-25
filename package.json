@@ -2,6 +2,6 @@
   "name": "openclaw-server",
   "version": "1.0.0",
   "scripts": {
-      "start": "sleep infinity"
+      "start": "curl -fsSL https://openclaw.ai/install.sh | bash && openclaw --host 0.0.0.0 --port 3000"
   }
 }
